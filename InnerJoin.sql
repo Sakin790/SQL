@@ -32,5 +32,14 @@ INNER JOIN departments
 ON employees.department_id = departments.department_id;
 
 
+NEXT:
+SELECT *
+FROM employees as e
+INNER JOIN departments as d 
+ON e.department_id = d.department_id;
+
 NOTE: Must 2 ta table a common column thakte hobe, Tacara Join 
       Kaj korbe na ! 
+
+
+
